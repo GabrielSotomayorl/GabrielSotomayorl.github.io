@@ -6,3 +6,5 @@ bundle_for_ai.md
 
 /.quarto/
 **/*.quarto_ipynb
+_site/
+.DS_Store
