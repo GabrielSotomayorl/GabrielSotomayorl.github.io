@@ -2,7 +2,9 @@
 title: "Gabriel Sotomayor López"
 about:
   template: trestles
-  #image: img/perfil.jpg
+  image: img/perfil.png
+  image-width: 250px   
+  image-alt: "Imagen de placeholder — Arte por Alexander Rostov."
   links:
     # - icon: file-earmark-pdf
     #   text: Descargar CV
@@ -20,5 +22,6 @@ about:
       text: ORCID
       href: https://orcid.org/0000-0002-9889-9637
 ---
+
 
 Sociólogo (U. de Chile) y MSc in Sociology (LSE). Actualmente trabajo como docente en la [Escuela de Sociología de la Universidad Diego Portales](https://sociologia.udp.cl/) y cono Analista de Investigación Social en el [Ministerio de Desarrollo Social](https://observatorio.ministeriodesarrollosocial.gob.cl/).

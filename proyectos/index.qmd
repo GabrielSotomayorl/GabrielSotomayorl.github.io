@@ -7,13 +7,10 @@ En esta sección presento una selección de proyectos de software y paquetes de 
 ::: {.projects}
 ## dosr: Paquete de R para Análisis de Encuestas Complejas
 
-::: columns
-::: {.column width="70%"}
 **Repositorio:** [GitHub](https://github.com/GabrielSotomayorl/dosr)
 
-`dosr` es un paquete de R diseñado para automatizar y estandarizar el análisis de encuestas con diseños muestrales complejos en el sector público. Proporciona funciones de alto nivel que, en una sola llamada, calculan estimaciones (medias, proporciones, cuantiles), evalúan su calidad estadística según estándares institucionales y generan reportes en Excel con pruebas de significancia, mejorando drásticamente la eficiencia y reproducibilidad.
-:::
-::: {.column width="30%"}
+`dosr` es un paquete de R diseñado para automatizar y estandarizar el análisis de encuestas con diseños muestrales complejos en el sector público. Proporciona funciones de alto nivel que, en una sola llamada, calculan estimaciones (medias, proporciones, cuantiles), evalúan su calidad estadística según estándares institucionales y generan reportes en Excel con pruebas de significancia, mejorando la eficiencia y reproducibilidad.
+
 **Instalación**
 
 Para instalar la última versión de desarrollo desde GitHub, usa el siguiente comando en tu consola de R:
@@ -22,8 +19,6 @@ Para instalar la última versión de desarrollo desde GitHub, usa el siguiente c
 # install.packages("remotes")
 remotes::install_github("GabrielSotomayorl/dosr")
 ```
-:::
-:::
 
-<hr> <!-- Línea divisoria para separar proyectos -->
+:::
 
