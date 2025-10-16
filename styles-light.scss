@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+$navbar-bg: #40E0D0;   // Turquesa
+$navbar-fg: #052b2b;   // Texto oscuro
+$navbar-brand-color: $navbar-fg;
+$link-color: #0f6b66;  // Links con tinte turquesa
+
+/*-- scss:rules --*/
+/* Navbar limpia (sin sombras ni degradados) */
+.navbar {
+  box-shadow: none !important;
+  border-bottom: none !important;
+  background-image: none !important;
+}
+.navbar .nav-link { color: $navbar-fg !important; }
+.navbar .nav-link:hover,
+.navbar .nav-link:focus { color: #033333 !important; text-decoration: none; }
+
+/* Docencia: compactar bloques y títulos */
+.teaching h2 { margin-bottom: .35rem; }
+.columns { margin-bottom: .6rem; }
+
+/* Tamaño de logos en docencia */
+.course-logo { width: 80px; border-radius: .5rem; }

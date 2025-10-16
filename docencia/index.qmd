@@ -1,9 +1,49 @@
 ---
 title: "Docencia"
-listing:
-  contents:
-    - "*.qmd"
-    - "!index.qmd" # <-- Corregido
-  type: default
-  sort: "date: desc"
 ---
+
+En esta sección encontrarás los cursos que imparto, con enlaces a versiones por año/semestre y materiales abiertos.
+
+::: {.teaching}
+## Análisis Avanzado de Datos II (SOC9035)
+
+::: columns
+::: {.column width="15%"}
+![](logos/soc9035.png){width=80}
+:::
+::: {.column width="85%"}
+**Versiones:** [2025](https://aadii2025.netlify.app/), [2024](https://aadii2024.netlify.app/), [2023](https://aadii2023.netlify.app/)  
+
+Estadística multivariante aplicada para ciencias sociales. Énfasis en interpretación rigurosa,
+práctica en *R/RStudio* y comunicación efectiva de resultados.
+:::
+:::
+
+## Descripción y Visualización de Datos (SOC09124)
+
+::: columns
+::: {.column width="15%"}
+![](logos/soc09124.png){width=80}
+:::
+::: {.column width="85%"}
+**Versiones:** [2025](https://dyv25.netlify.app/)  
+
+Fundamentos de estadística descriptiva, tablas, gráficos y primeros pasos en visualización con *R*.
+Énfasis en interpretación sustantiva.
+:::
+:::
+
+## Análisis Avanzado de Datos I (SOC8224)
+
+::: columns
+::: {.column width="15%"}
+![](logos/soc8224.png){width=80}
+:::
+::: {.column width="85%"}
+**Versiones:** [2024](https://aadi2024.netlify.app/)  
+
+Relaciones entre variables (dependencia e interdependencia) con enfoque aplicado.
+Uso de *R* para implementación y lectura crítica de resultados.
+:::
+:::
+:::
