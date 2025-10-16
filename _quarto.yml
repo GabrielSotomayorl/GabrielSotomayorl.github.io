@@ -9,19 +9,19 @@ website:
     left:
       - text: "Sobre mí"
         href: index.qmd
-      - text: "Publicaciones"
-        href: publicaciones/index.qmd
       - text: "Docencia"
         href: docencia/index.qmd
+      - text: "Publicaciones"
+        href: publicaciones/index.qmd
       - text: "Proyectos"
         href: proyectos/index.qmd
-      - text: "Trayectoria"
-        href: about.qmd
     right:
       - icon: envelope
         href: "mailto:gabrielsotomayorl@gmail.com"
       - icon: github
         href: https://github.com/GabrielSotomayorl
+      - icon: linkedin
+        href: https://www.linkedin.com/in/gabriel-sotomayor/
   search: true
 
 format:
