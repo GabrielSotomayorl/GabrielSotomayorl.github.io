@@ -3,17 +3,19 @@ project:
 
 website:
   title: "Gabriel Sotomayor López"
+  site-url: https://gabrielsotomayorl.github.io
+  repo-url:  https://github.com/GabrielSotomayorl/GabrielSotomayorl.github.io
   navbar:
     left:
-      - text: "Sobre mí" # Cambio de "Inicio"
+      - text: "Sobre mí"
         href: index.qmd
       - text: "Publicaciones"
         href: publicaciones/index.qmd
       - text: "Docencia"
         href: docencia/index.qmd
-      - text: "Proyectos" # Más descriptivo
+      - text: "Proyectos"
         href: proyectos/index.qmd
-      - text: "Trayectoria" # Nueva sección
+      - text: "Trayectoria"
         href: about.qmd
     right:
       - icon: envelope
