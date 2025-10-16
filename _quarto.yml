@@ -23,6 +23,8 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/gabriel-sotomayor/
   search: true
+  page-footer:
+    left: 'Hecho con [Quarto](https://quarto.org)'
 
 format:
   html:
