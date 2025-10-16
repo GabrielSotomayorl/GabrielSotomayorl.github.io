@@ -27,3 +27,6 @@ format:
     theme: cosmo
     toc: true
     css: styles.css
+
+execute:
+  freeze: auto
