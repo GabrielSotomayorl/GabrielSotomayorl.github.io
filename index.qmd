@@ -1,0 +1,24 @@
+---
+title: "Gabriel Sotomayor López"
+about:
+  template: trestles
+  image: img/perfil.jpg
+  links:
+    - icon: file-earmark-pdf
+      text: Descargar CV
+      href: Gabriel_Sotomayor_CV.pdf  # Asegúrate de tener tu CV en PDF en la raíz del proyecto
+    - icon: envelope
+      text: Email
+      href: "mailto:gabrielsotomayorl@gmail.com"
+    - icon: github
+      text: GitHub
+      href: https://github.com/GabrielSotomayorl
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=u_gjTz8AAAAJ&hl=es
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0002-9889-9637
+---
+
+Sociólogo (U. de Chile) y MSc in Sociology (LSE).

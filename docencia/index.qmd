@@ -1,0 +1,8 @@
+---
+title: "Docencia"
+listing:
+  contents:
+    - docencia/**
+  type: default
+  sort: "title: asc"
+---

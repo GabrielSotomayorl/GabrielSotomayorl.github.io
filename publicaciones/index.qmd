@@ -1,0 +1,8 @@
+---
+title: "Publicaciones"
+listing:
+  contents:
+    - publicaciones/**
+  type: default
+  sort: "title: asc"
+---

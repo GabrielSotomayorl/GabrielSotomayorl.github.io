@@ -1,0 +1,8 @@
+---
+title: "Proyectos"
+listing:
+  contents:
+    - proyectos/**
+  type: default
+  sort: "title: asc"
+---
