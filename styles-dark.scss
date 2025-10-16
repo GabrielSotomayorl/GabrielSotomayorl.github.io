@@ -1,25 +1,27 @@
 /*-- scss:defaults --*/
+/* Paleta oscura sin cambiar composición (mismo cosmo) */
 $body-bg: #0f1316;
 $body-color: #e6eeee;
 $link-color: #8fe9e2;
 $border-color: rgba(255,255,255,.08);
 
-$navbar-bg: #40E0D0;          // Misma turquesa que en claro
-$navbar-fg: #052b2b;          // Texto oscuro p/contraste
+/* Misma navbar que claro, solo colores adaptados */
+$navbar-bg: #40E0D0;          // misma turquesa que en claro
+$navbar-fg: #052b2b;          // texto oscuro para buen contraste
 $navbar-brand-color: $navbar-fg;
 
-/* Para el esquema navbar "oscuro" que trae slate */
+/* Para cualquier variante "dark" que introduzca el tema base */
 $navbar-dark-color: $navbar-fg;
 $navbar-dark-hover-color: #021f1f;
 $navbar-dark-active-color: #021f1f;
 
 /*-- scss:rules --*/
-/* Navbar: sin borde ni degradado, y sin separadores */
+/* Navbar: igual que en claro (sin sombras, sin separadores, mismo grosor) */
 .navbar {
   box-shadow: none !important;
   border-bottom: none !important;
   background-image: none !important;
-  padding-block: 0.7rem !important;   // Misma altura que en claro
+  padding-block: 0.7rem !important;
 }
 .navbar .navbar-brand,
 .navbar .nav-link {
@@ -30,6 +32,7 @@ $navbar-dark-active-color: #021f1f;
   letter-spacing: 0.01em;
   border-left: 0 !important;
 }
+.navbar .nav-item + .nav-item .nav-link { border-left: 0 !important; }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: $navbar-dark-hover-color !important;
@@ -37,14 +40,11 @@ $navbar-dark-active-color: #021f1f;
 }
 
 /* Bordes suaves en todo el sitio */
-hr, .dropdown-menu, .card, .table,
-.list-group-item, .accordion-item {
+hr, .dropdown-menu, .card, .table, .list-group-item, .accordion-item {
   border-color: $border-color !important;
 }
 
-/* Docencia: compactar bloques y títulos (igual que en claro) */
+/* Ajustes suaves reutilizables */
 .teaching h2 { margin-bottom: .35rem; }
 .columns { margin-bottom: .6rem; }
-
-/* Tamaño de logos en docencia */
 .course-logo { width: 80px; border-radius: .5rem; }

@@ -27,11 +27,12 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, styles-light.scss]   # <- claro + SCSS propio
-      dark:  [slate, styles-dark.scss]    # <- oscuro + SCSS propio
+      # Misma base en ambos modos → composición idéntica
+      light: [cosmo, styles-light.scss]
+      dark:  [cosmo, styles-dark.scss]
     toc: true
-    respect-user-color-scheme: true       # <- sigue el SO si es posible
-    # Si prefieres SIEMPRE claro por defecto (no seguir SO), elimina la línea anterior.
+    respect-user-color-scheme: true
+
 
 execute:
   freeze: auto
