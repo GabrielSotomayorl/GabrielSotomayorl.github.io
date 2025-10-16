@@ -2,11 +2,11 @@
 title: "Gabriel Sotomayor López"
 about:
   template: trestles
-  image: img/perfil.jpg
+  #image: img/perfil.jpg
   links:
-    - icon: file-earmark-pdf
-      text: Descargar CV
-      href: Gabriel_Sotomayor_CV.pdf  # Asegúrate de tener tu CV en PDF en la raíz del proyecto
+    # - icon: file-earmark-pdf
+    #   text: Descargar CV
+    #   href: Gabriel_Sotomayor_CV.pdf  # Asegúrate de tener tu CV en PDF en la raíz del proyecto
     - icon: envelope
       text: Email
       href: "mailto:gabrielsotomayorl@gmail.com"
@@ -21,4 +21,4 @@ about:
       href: https://orcid.org/0000-0002-9889-9637
 ---
 
-Sociólogo (U. de Chile) y MSc in Sociology (LSE).
+Sociólogo (U. de Chile) y MSc in Sociology (LSE). Actualmente trabajo como docente en la [Escuela de Sociología de la Universidad Diego Portales](https://sociologia.udp.cl/) y cono Analista de Investigación Social en el [Ministerio de Desarrollo Social](https://observatorio.ministeriodesarrollosocial.gob.cl/).
