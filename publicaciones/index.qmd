@@ -2,7 +2,10 @@
 title: "Publicaciones"
 listing:
   contents:
-    - publicaciones/**
+    - "*.qmd"
+    - "!index.qmd"  # <-- La exclusión se define aquí, dentro de contents
   type: default
-  sort: "title: asc"
+  sort: "date: desc"
+  fields: [date, title, author, description]
+  categories: true
 ---

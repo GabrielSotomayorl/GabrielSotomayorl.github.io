@@ -2,7 +2,8 @@
 title: "Proyectos"
 listing:
   contents:
-    - proyectos/**
+    - "*.qmd"
+    - "!index.qmd"
   type: default
-  sort: "title: asc"
+  sort: "date: desc"
 ---

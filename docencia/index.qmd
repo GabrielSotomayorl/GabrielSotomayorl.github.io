@@ -2,7 +2,8 @@
 title: "Docencia"
 listing:
   contents:
-    - docencia/**
+    - "*.qmd"
+    - "!index.qmd" # <-- Corregido
   type: default
-  sort: "title: asc"
+  sort: "date: desc"
 ---

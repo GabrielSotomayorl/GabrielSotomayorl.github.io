@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -166,7 +166,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../proyectos/index.html"> 
-<span class="menu-text">Proyectos de Investigación</span></a>
+<span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
@@ -195,9 +195,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2hpbGU=">Chile <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29uc3VtbyUyMEN1bHR1cmFs">Consumo Cultural <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVzaWd1YWxkYWQ=">Desigualdad <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -226,7 +226,26 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-categories="Q29uc3VtbyUyMEN1bHR1cmFsJTJDRGVzaWd1YWxkYWQlMkNDaGlsZQ==" data-listing-date-sort="1664593200000" data-listing-file-modified-sort="1760576369646" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="34">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../publicaciones/peters-guell-sotomayor-2022.html" class="no-external">Nuevas y viejas tendencias del consumo cultural en Chile</a>
+</h3>
+<div class="delink listing-description"><a href="../publicaciones/peters-guell-sotomayor-2022.html" class="no-external">
+<p>Desigualdades, prácticas emergentes y descripciones semánticas</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../publicaciones/peters-guell-sotomayor-2022.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2022
+</div>
+<div class="listing-author">
+Peters, T., Güell, P., &amp; Sotomayor, G.
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->

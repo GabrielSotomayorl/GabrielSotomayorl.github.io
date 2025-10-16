@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "proyectos/index.html",
-    "href": "proyectos/index.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Gabriel Sotomayor López",
-    "section": "",
-    "text": "Sociólogo (U. de Chile) y MSc in Sociology (LSE)."
-  },
-  {
     "objectID": "publicaciones/peters-guell-sotomayor-2022.html",
     "href": "publicaciones/peters-guell-sotomayor-2022.html",
     "title": "Nuevas y viejas tendencias del consumo cultural en Chile",
@@ -28,6 +14,13 @@
     "text": "About this site"
   },
   {
+    "objectID": "proyectos/index.html",
+    "href": "proyectos/index.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
     "objectID": "docencia/index.html",
     "href": "docencia/index.html",
     "title": "Docencia",
@@ -35,10 +28,17 @@
     "text": "No matching items"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Gabriel Sotomayor López",
+    "section": "",
+    "text": "Sociólogo (U. de Chile) y MSc in Sociology (LSE)."
+  },
+  {
     "objectID": "publicaciones/index.html",
     "href": "publicaciones/index.html",
     "title": "Publicaciones",
     "section": "",
-    "text": "No matching items"
+    "text": "Nuevas y viejas tendencias del consumo cultural en Chile\n\n\nDesigualdades, prácticas emergentes y descripciones semánticas\n\n\n\n\n\nOct 1, 2022\n\n\nPeters, T., Güell, P., & Sotomayor, G.\n\n\n\n\n\nNo matching items"
   }
 ]

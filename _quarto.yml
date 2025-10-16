@@ -11,7 +11,7 @@ website:
         href: publicaciones/index.qmd
       - text: "Docencia"
         href: docencia/index.qmd
-      - text: "Proyectos de Investigación" # Más descriptivo
+      - text: "Proyectos" # Más descriptivo
         href: proyectos/index.qmd
       - text: "Trayectoria" # Nueva sección
         href: about.qmd
