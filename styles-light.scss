@@ -10,10 +10,25 @@ $link-color: #0f6b66;  // Links con tinte turquesa
   box-shadow: none !important;
   border-bottom: none !important;
   background-image: none !important;
+  padding-block: 0.7rem !important;   // Grosor consistente con tema oscuro
 }
-.navbar .nav-link { color: $navbar-fg !important; }
+
+/* Tipografía y estilo homogéneo para claro/oscuro */
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: $navbar-fg !important;
+  font-family: var(--bs-body-font-family);
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border-left: 0 !important;          // Sin separadores verticales
+}
+
 .navbar .nav-link:hover,
-.navbar .nav-link:focus { color: #033333 !important; text-decoration: none; }
+.navbar .nav-link:focus {
+  color: #033333 !important;
+  text-decoration: none;
+}
 
 /* Docencia: compactar bloques y títulos */
 .teaching h2 { margin-bottom: .35rem; }
