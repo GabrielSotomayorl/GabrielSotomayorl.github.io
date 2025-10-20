@@ -2,7 +2,7 @@
 title: "Gabriel Sotomayor López"
 about:
   template: trestles
-  image: img/perfil.png
+  image: img/perfil.jpg
   image-width: 250px   
   image-alt: "Imagen de placeholder — Arte por Alexander Rostov."
   links:
