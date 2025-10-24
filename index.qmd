@@ -4,7 +4,6 @@ about:
   template: trestles
   image: img/perfil.jpg
   image-width: 250px   
-  image-alt: "Imagen de placeholder — Arte por Alexander Rostov."
   links:
     # - icon: file-earmark-pdf
     #   text: Descargar CV
