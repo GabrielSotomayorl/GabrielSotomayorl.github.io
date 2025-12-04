@@ -3,8 +3,9 @@ project:
 
 website:
   title: "Gabriel Sotomayor López"
-  site-url: https://gabrielsotomayorl.github.io
+  site-url: "https://gabrielsotomayorl.github.io"
   repo-url:  https://github.com/GabrielSotomayorl/GabrielSotomayorl.github.io
+  description: "Sociólogo, profesor en la Universidad Diego Portales y Analista de Investigación Social (MDSF)."
   navbar:
     left:
       - text: "Sobre mí"
@@ -34,7 +35,7 @@ format:
       dark:  [cosmo, styles-dark.scss]
     toc: true
     respect-user-color-scheme: true
-
+    lang: es
 
 execute:
   freeze: auto
