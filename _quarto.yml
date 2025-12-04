@@ -36,6 +36,8 @@ format:
     toc: true
     respect-user-color-scheme: true
     lang: es
+    include-in-header: google-search-console.html
 
 execute:
   freeze: auto
+
