@@ -1,5 +1,6 @@
 ---
 title: "Gabriel Sotomayor López"
+description: "Sociólogo, profesor en la Universidad Diego Portales y Analista de Investigación Social (MDSF)."
 about:
   template: trestles
   image: img/perfil.jpg
