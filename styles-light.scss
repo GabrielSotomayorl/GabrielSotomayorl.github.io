@@ -1,34 +1,80 @@
 /*-- scss:defaults --*/
-$navbar-bg: #40E0D0;   // Turquesa
-$navbar-fg: #052b2b;   // Texto oscuro
-$navbar-brand-color: $navbar-fg;
-$link-color: #0f6b66;  // Links con tinte turquesa
+/* El nuevo color con personalidad: Deep Teal */
+$primary: #20666E;           /* Color principal para enlaces y botones */
+$navbar-bg: #ffffff;
+$navbar-fg: #212529;
+
+/* Color de fondo muy sutil para romper el blanco clínico */
+$body-bg: #fdfdfd;           /* Un "casi" blanco, menos agresivo a la vista */
+$body-color: #2c3e50;        /* Gris azulado oscuro para el texto (menos duro que negro) */
 
 /*-- scss:rules --*/
-/* Navbar limpia (sin sombras, sin degradados, sin separadores) */
+
+/* 1. PERSONALIDAD EN LA BARRA DE NAVEGACIÓN */
 .navbar {
-  box-shadow: none !important;
-  border-bottom: none !important;
-  background-image: none !important;
-  padding-block: 0.7rem !important;   /* grosor consistente */
-}
-.navbar .navbar-brand,
-.navbar .nav-link {
-  color: $navbar-fg !important;
-  font-family: var(--bs-body-font-family);
-  font-size: 1.05rem;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  border-left: 0 !important;          /* elimina divisores verticales */
-}
-.navbar .nav-item + .nav-item .nav-link { border-left: 0 !important; }
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: #033333 !important;
-  text-decoration: none;
+  border-bottom: 1px solid rgba(32, 102, 110, 0.1) !important; /* Borde sutil en tu color */
+  padding-block: 1rem !important;
 }
 
-/* Ajustes suaves reutilizables */
-.teaching h2 { margin-bottom: .35rem; }
-.columns { margin-bottom: .6rem; }
-.course-logo { width: 80px; border-radius: .5rem; }
+.navbar-brand {
+  font-weight: 700;
+  color: #164247 !important; /* Versión más oscura del Teal para el nombre */
+  letter-spacing: -0.03em;
+}
+
+/* 2. ENLACES CON CARÁCTER */
+a {
+  color: $primary;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px; /* Separa el subrayado del texto para elegancia */
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #12393d; /* Más oscuro al pasar el mouse */
+  background-color: rgba(32, 102, 110, 0.05); /* Sutil resaltado de fondo */
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+/* 3. BOTONES (El antídoto al NPC) */
+/* Los botones outline grises son tristes. Vamos a darles vida. */
+.about-links .btn {
+  color: #20666E !important;
+  border-color: #20666E !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1rem;
+  margin: 3px;
+}
+
+.about-links .btn:hover {
+  background-color: #20666E !important;
+  color: #ffffff !important; /* Texto blanco sobre fondo teal */
+  transform: translateY(-1px); /* Efecto sutil de elevación */
+  box-shadow: 0 4px 6px rgba(32, 102, 110, 0.2);
+}
+
+/* 4. TÍTULOS */
+h1, h2, h3 {
+  color: #1a252f;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Un toque de color en los encabezados secundarios si quieres */
+h2 {
+  color: #20666E; /* Opcional: Títulos de sección en tu color */
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+/* Estilo para la imagen de perfil en la plantilla trestles */
+.about-image {
+  border-radius: 8px; /* Bordes suavemente redondeados, no círculo */
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 
+              0 8px 10px -6px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+  border: 1px solid rgba(32, 102, 110, 0.1); /* Borde casi invisible en tu color */
+}

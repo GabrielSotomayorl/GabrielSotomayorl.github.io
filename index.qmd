@@ -1,27 +1,32 @@
 ---
 title: "Gabriel Sotomayor López"
-description: "Sociólogo, profesor en la Universidad Diego Portales y Analista de Investigación Social (MDSF)."
+description: "Sociólogo (U. de Chile / LSE). Analista en el Ministerio de Desarrollo Social y Profesor UDP."
 about:
   template: trestles
   image: img/perfil.jpg
-  image-width: 250px   
+  image-width: 250px    
   links:
-    # - icon: file-earmark-pdf
-    #   text: Descargar CV
-    #   href: Gabriel_Sotomayor_CV.pdf  # Asegúrate de tener tu CV en PDF en la raíz del proyecto
     - icon: envelope
       text: Email
       href: "mailto:gabrielsotomayorl@gmail.com"
-    - icon: github
-      text: GitHub
-      href: https://github.com/GabrielSotomayorl
+    # - icon: file-text
+    #   text: CV
+    #   href: Gabriel_Sotomayor_CV.pdf
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=u_gjTz8AAAAJ&hl=es
-    - icon: orcid
-      text: ORCID
-      href: https://orcid.org/0000-0002-9889-9637
+    - icon: github
+      text: GitHub
+      href: https://github.com/GabrielSotomayorl
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/gabriel-sotomayor/
 ---
 
+## Sobre mí
 
-Sociólogo (U. de Chile) y MSc in Sociology (LSE). Actualmente trabajo como docente en la [Escuela de Sociología de la Universidad Diego Portales](https://sociologia.udp.cl/) y como Analista de Investigación Social en el [Ministerio de Desarrollo Social](https://observatorio.ministeriodesarrollosocial.gob.cl/).
+Sociólogo (Universidad de Chile) y MSc in Sociology (LSE). Actualmente me desempeño como Analista de Investigación Social en el **[Ministerio de Desarrollo Social y Familia](https://observatorio.ministeriodesarrollosocial.gob.cl/)**, participando en el diseño y análisis de estadísticas oficiales de caracterización socioeconómica.
+
+En el ámbito académico, soy profesor en la **[Universidad Diego Portales](https://sociologia.udp.cl/)**, donde imparto cursos de estadística y ciencia de datos aplicados a las ciencias sociales. Mis áreas de interés comprenden la estratificación social, la medición de la desigualdad y el uso de herramientas computacionales (R) para el análisis de datos sociales.
+
+Recientemente he sido seleccionado como becario **Fulbright** (2025) para realizar estudios de doctorado.

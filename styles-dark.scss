@@ -1,50 +1,93 @@
 /*-- scss:defaults --*/
-/* Paleta oscura sin cambiar composición (mismo cosmo) */
-$body-bg: #0f1316;
-$body-color: #e6eeee;
-$link-color: #8fe9e2;
-$border-color: rgba(255,255,255,.08);
+/* Paleta Dark Mode: Sofisticada y legible */
+$body-bg: #0F1215;           /* Gris pizarra muy oscuro (mejor que negro puro) */
+$body-color: #dee2e6;        /* Texto gris claro para lectura descansada */
 
-/* Misma navbar que claro, solo colores adaptados */
-$navbar-bg: #40E0D0;          // misma turquesa que en claro
-$navbar-fg: #052b2b;          // texto oscuro para buen contraste
-$navbar-brand-color: $navbar-fg;
+/* El "Teal" adaptado a la oscuridad: Más brillante y cian */
+$primary: #64D2C8;           /* Un teal luminoso para que se lea bien sobre negro */
+$link-color: #64D2C8;
 
-/* Para cualquier variante "dark" que introduzca el tema base */
-$navbar-dark-color: $navbar-fg;
-$navbar-dark-hover-color: #021f1f;
-$navbar-dark-active-color: #021f1f;
+$navbar-bg: #0F1215;         /* Mismo fondo que el cuerpo */
+$navbar-fg: #f8f9fa;         /* Texto casi blanco */
 
 /*-- scss:rules --*/
-/* Navbar: igual que en claro (sin sombras, sin separadores, mismo grosor) */
+
+/* 1. BARRA DE NAVEGACIÓN INTEGRADA */
 .navbar {
-  box-shadow: none !important;
-  border-bottom: none !important;
-  background-image: none !important;
-  padding-block: 0.7rem !important;
+  border-bottom: 1px solid rgba(100, 210, 200, 0.15) !important; /* Línea sutil en tu color */
+  padding-block: 1rem !important;
 }
-.navbar .navbar-brand,
+
+.navbar-brand {
+  font-weight: 700;
+  color: #ffffff !important;
+  letter-spacing: -0.03em;
+}
+
 .navbar .nav-link {
-  color: $navbar-fg !important;
-  font-family: var(--bs-body-font-family);
-  font-size: 1.05rem;
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  border-left: 0 !important;
+  color: rgba(255,255,255,0.8) !important;
 }
-.navbar .nav-item + .nav-item .nav-link { border-left: 0 !important; }
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: $navbar-dark-hover-color !important;
+
+.navbar .nav-link:hover {
+  color: $primary !important;
+}
+
+/* 2. ENLACES Y TEXTOS */
+a {
+  color: $primary;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #9FF5EE; /* Un tono aún más brillante al pasar el mouse */
   text-decoration: none;
 }
 
-/* Bordes suaves en todo el sitio */
-hr, .dropdown-menu, .card, .table, .list-group-item, .accordion-item {
-  border-color: $border-color !important;
+/* 3. BOTONES EN MODO OSCURO (Invertidos para contraste) */
+.about-links .btn {
+  color: $primary !important;
+  border-color: $primary !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1rem;
+  margin: 3px;
+  background-color: transparent;
 }
 
-/* Ajustes suaves reutilizables */
-.teaching h2 { margin-bottom: .35rem; }
-.columns { margin-bottom: .6rem; }
-.course-logo { width: 80px; border-radius: .5rem; }
+.about-links .btn:hover {
+  background-color: $primary !important;
+  color: #0F1215 !important; /* Texto oscuro sobre botón brillante */
+  box-shadow: 0 0 10px rgba(100, 210, 200, 0.3); /* Efecto de "Glow" o neón */
+}
+
+/* 4. TÍTULOS */
+h1, h2, h3 {
+  color: #f0f6fc;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Títulos con acento */
+h2 {
+  color: $primary;
+  border-bottom: 1px solid rgba(100, 210, 200, 0.1);
+  padding-bottom: 0.5rem;
+}
+
+/* 5. AJUSTES DE BLOQUES DE CÓDIGO (Importante para R) */
+pre, code, .cell-output {
+  background-color: #161b22 !important; /* Fondo ligeramente más claro que el body */
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
+
+/* Imagen de perfil en dark mode */
+.about-image {
+  border-radius: 8px;
+  border: 1px solid rgba(100, 210, 200, 0.2);
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Sombra difusa */
+}

@@ -1,11 +1,30 @@
 ---
 title: "Publicaciones"
-listing:
-  contents:
-    - "*.qmd"
-    - "!index.qmd"  # <-- La exclusión se define aquí, dentro de contents
-  type: default
-  sort: "date: desc"
-  fields: [date, title, author, description]
-  categories: true
+description: "Artículos académicos, reseñas y presentaciones en conferencias."
 ---
+
+## Artículos en Revistas
+
+Peters, T., Güell, P., & **Sotomayor, G.** (2022). Nuevas y viejas tendencias del consumo cultural en Chile: desigualdades, prácticas emergentes y descripciones semánticas. *Revista Internacional de Sociología*, 80(3).
+<https://doi.org/10.3989/ris.2022.80.3.21.1080>
+
+## Reportes Técnicos y Otros
+
+FAO. (2024). *Estimation of the prevalence of moderate and severe food insecurity in Chilean municipalities using small area estimation methods*. Rome: FAO. (Co-autoría técnica en metodologías SAE).
+<https://doi.org/10.4060/cd1350en>
+
+**Sotomayor, G.**, Álvarez, D., Catalán, V., & Montenegro, B. (2017). Organización sindical, acción colectiva e identidad en Starbucks Chile. *Revista La Maquila*, 4, 79-107.
+
+## Reseñas de Libros
+
+**Sotomayor, G.** (2020). Book review: *Marx, Women and Capitalist Social Reproduction* by Martha E. Giménez. *Capital & Class*, 44(1), 126-128.
+<https://doi.org/10.1177/0309816820910010>
+
+**Sotomayor, G.**, & Andrade, V. (2018). Book review: *Capitalism and the Political Economy of Work Time* by Christoph Hermann. *Capital & Class*, 42(3), 585-587.
+<https://doi.org/10.1177/0309816818803025d>
+
+## Conferencias Recientes
+
+**Sotomayor, G.** (2025). *dosr: Acelerando y estandarizando el análisis de encuestas complejas en el sector público*. LatinR 2025 - Conferencia Latinoamericana sobre Uso de R en I+D.
+
+Atria, J., Cofré, A., Salazar, J., Hernández, M., Messina, G., & **Sotomayor, G.** (2022). *Los significados sociales de los impuestos: percepciones de la ciudadanía, desigualdades de género y tributación de la clase alta*. XI Congreso Chileno de Sociología.

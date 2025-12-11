@@ -4,40 +4,49 @@ project:
 website:
   title: "Gabriel Sotomayor López"
   site-url: "https://gabrielsotomayorl.github.io"
-  repo-url:  https://github.com/GabrielSotomayorl/GabrielSotomayorl.github.io
-  description: "Sociólogo, profesor en la Universidad Diego Portales y Analista de Investigación Social (MDSF)."
+  description: "Investigación en Estratificación Social y Métodos Computacionales (R)."
+  
+  # ESTO ES CRÍTICO PARA VISIBILIDAD ACADÉMICA (Twitter cards, previews)
+  open-graph: true
+  twitter-card: true
+  
   navbar:
+    background: "#ffffff" # Default, se sobreescribe con SCSS
     left:
       - text: "Sobre mí"
         href: index.qmd
-      - text: "Docencia"
-        href: docencia/index.qmd
       - text: "Publicaciones"
         href: publicaciones/index.qmd
-      - text: "Proyectos"
+      - text: "Proyectos" 
         href: proyectos/index.qmd
+      - text: "Docencia"
+        href: docencia/index.qmd
     right:
       - icon: envelope
         href: "mailto:gabrielsotomayorl@gmail.com"
+        aria-label: "Email"
+      # - icon: file-text
+      #   text: "CV"
+      #   href: "Gabriel_Sotomayor_CV.pdf" # Descomentar cuando el archivo esté listo
       - icon: github
         href: https://github.com/GabrielSotomayorl
+        aria-label: "GitHub"
       - icon: linkedin
         href: https://www.linkedin.com/in/gabriel-sotomayor/
-  search: true
+        aria-label: "LinkedIn"
+      
   page-footer:
-    left: 'Hecho con [Quarto](https://quarto.org)'
+    left: "© 2025 Gabriel Sotomayor López"
+    right: "Desarrollado con [Quarto](https://quarto.org)"
 
 format:
   html:
     theme:
-      # Misma base en ambos modos → composición idéntica
-      light: [cosmo, styles-light.scss]
-      dark:  [cosmo, styles-dark.scss]
+      light: [flatly, styles-light.scss] # Flatly es mejor base que Cosmo (tipografía más limpia)
+      dark:  [darkly, styles-dark.scss]
     toc: true
-    respect-user-color-scheme: true
     lang: es
     include-in-header: google-search-console.html
 
 execute:
   freeze: auto
-
