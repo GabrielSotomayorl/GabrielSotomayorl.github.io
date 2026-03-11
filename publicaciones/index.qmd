@@ -10,6 +10,9 @@ Peters, T., Güell, P., & **Sotomayor, G.** (2022). Nuevas y viejas tendencias d
 
 ## Reportes Técnicos y Otros
 
+Observatorio Social, Ministerio de Desarrollo Social y Familia. (2026). *Informe sobre desigualdad de ingresos en Chile 2026* (López, D., **Sotomayor, G.**, Oyarzún, A., & Nocera, C.).
+<https://bidat.gob.cl/details/ficha/dato/informe-sobre-desigualdad-de-ingresos-en-chile-2026>
+
 FAO. (2024). *Estimation of the prevalence of moderate and severe food insecurity in Chilean municipalities using small area estimation methods*. Rome: FAO. (Co-autoría técnica en metodologías SAE).
 <https://doi.org/10.4060/cd1350en>
 
