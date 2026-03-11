@@ -2,7 +2,7 @@
 title: "Docencia"
 ---
 
-En esta sección encontrarás los cursos que imparto, con enlaces a versiones por año/semestre y materiales abiertos.
+En esta sección encontrarás los cursos que imparto en el pregrado de Sociología de la **Universidad Diego Portales**, con enlaces a versiones por año y materiales abiertos.
 
 ::: {.teaching}
 ## Análisis Avanzado de Datos II (SOC9035)

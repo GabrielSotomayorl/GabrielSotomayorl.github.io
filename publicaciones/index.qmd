@@ -29,5 +29,6 @@ FAO. (2024). *Estimation of the prevalence of moderate and severe food insecurit
 ## Conferencias Recientes
 
 **Sotomayor, G.** (2025). *dosr: Acelerando y estandarizando el análisis de encuestas complejas en el sector público*. LatinR 2025 - Conferencia Latinoamericana sobre Uso de R en I+D.
+<https://www.youtube.com/watch?v=eEO-q_WY21w>
 
-Atria, J., Cofré, A., Salazar, J., Hernández, M., Messina, G., & **Sotomayor, G.** (2022). *Los significados sociales de los impuestos: percepciones de la ciudadanía, desigualdades de género y tributación de la clase alta*. XI Congreso Chileno de Sociología.
+Atria, J., Cofré, A., Salazar, J., Hernández, M., Messina, G., & **Sotomayor, G.** (2022). *Los significados sociales de los impuestos: percepciones de la ciudadanía, desigualdades de género y tributación de la clase alta*. XI Congreso Chileno de Sociología y Encuentro Pre-ALAS, Concepción, 2022.
