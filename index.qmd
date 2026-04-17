@@ -1,10 +1,11 @@
 ---
 title: "Gabriel Sotomayor López"
 description: "Sociólogo (U. de Chile / LSE). Analista en el Ministerio de Desarrollo Social y Profesor UDP."
+toc: false
 about:
   template: trestles
   image: img/perfil.jpg
-  image-width: 250px    
+  image-width: 250px
   links:
     - icon: envelope
       text: Email
@@ -23,10 +24,14 @@ about:
       href: https://www.linkedin.com/in/gabriel-sotomayor/
 ---
 
+::: {.profile-focus}
+Estratificación social · desigualdad · encuestas complejas · ciencia de datos con R
+:::
+
 ## Sobre mí
 
 Sociólogo (Universidad de Chile) y MSc in Sociology (LSE). Actualmente me desempeño como Analista de Investigación Social en el **[Ministerio de Desarrollo Social y Familia](https://observatorio.ministeriodesarrollosocial.gob.cl/)**, participando en el diseño y análisis de estadísticas oficiales de caracterización socioeconómica.
 
 En el ámbito académico, soy profesor en la **[Universidad Diego Portales](https://sociologia.udp.cl/)**, donde imparto cursos de estadística y ciencia de datos aplicados a las ciencias sociales. Mis áreas de interés comprenden la estratificación social, la medición de la desigualdad y el uso de herramientas computacionales (R) para el análisis de datos sociales.
 
-Recientemente he sido seleccionado como becario **Fulbright** (2025) para realizar estudios de doctorado.
+Becario **Fulbright 2025** para estudios de doctorado.

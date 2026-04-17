@@ -1,93 +1,200 @@
 /*-- scss:defaults --*/
-/* Paleta Dark Mode: Sofisticada y legible */
-$body-bg: #0F1215;           /* Gris pizarra muy oscuro (mejor que negro puro) */
-$body-color: #dee2e6;        /* Texto gris claro para lectura descansada */
-
-/* El "Teal" adaptado a la oscuridad: Más brillante y cian */
-$primary: #64D2C8;           /* Un teal luminoso para que se lea bien sobre negro */
+$body-bg: #0F1215;
+$body-color: #dee2e6;
+$primary: #64D2C8;
 $link-color: #64D2C8;
-
-$navbar-bg: #0F1215;         /* Mismo fondo que el cuerpo */
-$navbar-fg: #f8f9fa;         /* Texto casi blanco */
+$navbar-bg: #0F1215;
+$navbar-fg: #f8f9fa;
 
 /*-- scss:rules --*/
 
-/* 1. BARRA DE NAVEGACIÓN INTEGRADA */
 .navbar {
-  border-bottom: 1px solid rgba(100, 210, 200, 0.15) !important; /* Línea sutil en tu color */
+  border-bottom: 1px solid rgba(100, 210, 200, 0.16) !important;
   padding-block: 1rem !important;
 }
 
 .navbar-brand {
-  font-weight: 700;
   color: #ffffff !important;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  letter-spacing: 0;
+  white-space: normal;
+}
+
+.navbar-title {
+  overflow-wrap: anywhere;
 }
 
 .navbar .nav-link {
-  color: rgba(255,255,255,0.8) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .navbar .nav-link:hover {
   color: $primary !important;
 }
 
-/* 2. ENLACES Y TEXTOS */
 a {
   color: $primary;
   text-decoration-thickness: 1px;
   text-underline-offset: 4px;
-  transition: all 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #9FF5EE; /* Un tono aún más brillante al pasar el mouse */
+  color: #9FF5EE;
   text-decoration: none;
 }
 
-/* 3. BOTONES EN MODO OSCURO (Invertidos para contraste) */
-.about-links .btn {
-  color: $primary !important;
-  border-color: $primary !important;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 0.05em;
-  padding: 0.5rem 1rem;
-  margin: 3px;
-  background-color: transparent;
-}
-
-.about-links .btn:hover {
-  background-color: $primary !important;
-  color: #0F1215 !important; /* Texto oscuro sobre botón brillante */
-  box-shadow: 0 0 10px rgba(100, 210, 200, 0.3); /* Efecto de "Glow" o neón */
-}
-
-/* 4. TÍTULOS */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #f0f6fc;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 }
 
-/* Títulos con acento */
 h2 {
+  border-bottom: 1px solid rgba(100, 210, 200, 0.12);
   color: $primary;
-  border-bottom: 1px solid rgba(100, 210, 200, 0.1);
   padding-bottom: 0.5rem;
 }
 
-/* 5. AJUSTES DE BLOQUES DE CÓDIGO (Importante para R) */
-pre, code, .cell-output {
-  background-color: #161b22 !important; /* Fondo ligeramente más claro que el body */
-  border: 1px solid rgba(255,255,255,0.1);
+pre,
+code,
+.cell-output {
+  background-color: #161b22 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
 }
 
-/* Imagen de perfil en dark mode */
 .about-image {
+  border: 1px solid rgba(100, 210, 200, 0.22);
   border-radius: 8px;
-  border: 1px solid rgba(100, 210, 200, 0.2);
-  box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Sombra difusa */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.about-entity .description {
+  max-width: 34rem;
+  overflow-wrap: anywhere;
+}
+
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.about-links .about-link {
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid $primary;
+  border-radius: 6px;
+  color: $primary !important;
+  display: inline-flex;
+  font-size: 0.9rem;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.9rem;
+  text-decoration: none;
+}
+
+.about-links .about-link:hover {
+  background-color: $primary !important;
+  box-shadow: 0 0 10px rgba(100, 210, 200, 0.3);
+  color: #0F1215 !important;
+}
+
+.profile-focus {
+  color: #b7fff8;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.teaching img {
+  border-radius: 8px;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    padding-block: 0.65rem !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.05rem;
+    max-width: calc(100vw - 6rem);
+  }
+
+  .quarto-about-trestles {
+    box-sizing: border-box;
+    display: block !important;
+    margin-inline: 0 !important;
+    max-width: 100%;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .about-entity {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding-inline: 1rem;
+    width: 100% !important;
+  }
+
+  .quarto-about-trestles .about-contents {
+    box-sizing: border-box;
+    max-width: 100% !important;
+    padding-inline: 1rem;
+    width: 100% !important;
+  }
+
+  .about-image {
+    height: auto;
+    width: min(250px, 72vw) !important;
+  }
+
+  .about-entity .description {
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-inline: auto;
+    max-width: 19rem !important;
+    padding-inline: 0;
+    white-space: normal !important;
+    width: auto;
+  }
+
+  .about-links {
+    align-items: stretch;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-links .about-link {
+    width: 100%;
+  }
+
+  .profile-focus {
+    font-size: 0.95rem;
+    margin-inline: auto;
+    max-width: 19rem;
+    overflow-wrap: break-word;
+  }
+
+  div.columns {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  div.column {
+    width: 100% !important;
+  }
 }
