@@ -46,7 +46,9 @@ format:
       dark:  [darkly, styles-dark.scss]
     toc: true
     lang: es
-    include-in-header: google-search-console.html
+    include-in-header:
+      - google-search-console.html
+      - goatcounter.html
 
 execute:
   freeze: auto
