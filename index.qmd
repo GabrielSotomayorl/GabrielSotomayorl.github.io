@@ -16,6 +16,8 @@ about:
     - icon: mortarboard
       text: Google Scholar
       href: https://scholar.google.com/citations?user=u_gjTz8AAAAJ&hl=es
+    - text: ORCID
+      href: https://orcid.org/0000-0002-9889-9637
     - icon: github
       text: GitHub
       href: https://github.com/GabrielSotomayorl
@@ -28,10 +30,12 @@ about:
 Estratificación social · desigualdad · encuestas complejas · ciencia de datos con R
 :::
 
+::: {.fulbright-badge}
+Becario **Fulbright 2025** · Estudios de doctorado
+:::
+
 ## Sobre mí
 
 Sociólogo (Universidad de Chile) y MSc in Sociology (LSE). Actualmente me desempeño como Analista de Investigación Social en el **[Ministerio de Desarrollo Social y Familia](https://observatorio.ministeriodesarrollosocial.gob.cl/)**, participando en el diseño y análisis de estadísticas oficiales de caracterización socioeconómica.
 
 En el ámbito académico, soy profesor en la **[Universidad Diego Portales](https://sociologia.udp.cl/)**, donde imparto cursos de estadística y ciencia de datos aplicados a las ciencias sociales. Mis áreas de interés comprenden la estratificación social, la medición de la desigualdad y el uso de herramientas computacionales (R) para el análisis de datos sociales.
-
-Becario **Fulbright 2025** para estudios de doctorado.

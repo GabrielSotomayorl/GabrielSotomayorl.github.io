@@ -6,9 +6,12 @@ website:
   site-url: "https://gabrielsotomayorl.github.io"
   description: "Investigación en Estratificación Social y Métodos Computacionales (R)."
   
+  favicon: favicon.svg
+
   # ESTO ES CRÍTICO PARA VISIBILIDAD ACADÉMICA (Twitter cards, previews)
   open-graph: true
   twitter-card: true
+  image: img/perfil.jpg
   
   navbar:
     background: "#ffffff" # Default, se sobreescribe con SCSS

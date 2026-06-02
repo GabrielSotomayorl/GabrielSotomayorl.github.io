@@ -112,7 +112,22 @@ code,
   color: #b7fff8;
   font-size: 1rem;
   font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.fulbright-badge {
+  background-color: rgba(100, 210, 200, 0.1);
+  border-left: 3px solid $primary;
+  border-radius: 4px;
+  color: #b7fff8;
+  display: inline-block;
+  font-size: 0.95rem;
   margin-bottom: 1.25rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.fulbright-badge p {
+  margin: 0;
 }
 
 .teaching img {
