@@ -5,6 +5,8 @@ description: "Artículos académicos, reportes técnicos, reseñas y presentacio
 
 ## Artículos en Revistas
 
+Martínez, P., Martínez, V., **Sotomayor, G.**, Rojas, V., Encina, J., Cociña, M., & Orri, M. (2026). Cohort Profile: The Early Childhood Longitudinal Survey (ELPI), Chile. *International Journal of Epidemiology*. *(Aceptado / en prensa).*
+
 Peters, T., Güell, P., & **Sotomayor, G.** (2022). Nuevas y viejas tendencias del consumo cultural en Chile: desigualdades, prácticas emergentes y descripciones semánticas. *Revista Internacional de Sociología*, 80(3).  
 <https://doi.org/10.3989/ris.2022.80.3.21.1080>
 
