@@ -25,7 +25,7 @@ Curso orientado al modelamiento de estructuras latentes en ciencias sociales. La
 ![](logos/soc09124.png){width=80 alt="Logo del curso Descripción y Visualización de Datos"}
 :::
 ::: {.column width="85%"}
-**Versiones:** [2025](https://dyv25.netlify.app/)
+**Versiones:** [2026](https://gabrielsotomayorl.github.io/dyv/2026/), [2025](https://dyv25.netlify.app/)
 
 Curso introductorio que desarrolla la capacidad de pensar con datos desde una perspectiva sociológica. Cubre estadística descriptiva, manejo de datos y visualización en *R*, avanzando desde el análisis univariado hasta las primeras herramientas bivariadas, con énfasis en la interpretación sustantiva y la visualización como forma de argumentación.
 :::
